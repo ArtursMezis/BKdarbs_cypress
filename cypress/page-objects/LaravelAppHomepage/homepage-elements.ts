@@ -1,0 +1,77 @@
+export const homepage = {
+
+    laravelLogotype: `[src="/img/logotype.min.svg"]`,
+    laracastLogotype: `[src="/images/logo/logo-white.svg"]`,
+    laravelNews: `a[href="https://laravel-news.com"]`,
+    gitHubLogo: `[class="octicon octicon-mark-github"]`,
+    documentation: {
+        container: `a[href="https://laravel.com/docs"]`,
+        url: `https://laravel.com/docs`,
+        heading: `h2`,
+        headingText: `Documentation`,
+        paragraph:  `p`,
+        paragraphText:  ` Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end. `,
+        arrowSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        arrowSVGURL: `http://www.w3.org/2000/svg`,
+        iconSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        iconSVGURL: `http://www.w3.org/2000/svg`,
+    },
+    laracast: {
+        container: `a[href="https://laracasts.com"]`,
+        url: `https://laracasts.com`,
+        heading: `h2`,
+        headingText: `Laracasts`,
+        paragraph:  `p`,
+        paragraphText:  ` Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process. `,
+        arrowSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        arrowSVGURL: `http://www.w3.org/2000/svg`,
+        iconSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        iconSVGURL: `http://www.w3.org/2000/svg`,
+    },
+    news: {
+        container: `a[href="https://laravel-news.com"]`,
+        url: `https://laravel-news.com`,
+        heading: `h2`,
+        headingText: `Laravel News`,
+        paragraph:  `p`,
+        paragraphText:  ` Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials. `,
+        arrowSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        arrowSVGURL: `http://www.w3.org/2000/svg`,
+        iconSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        iconSVGURL: `http://www.w3.org/2000/svg`,
+    },
+    ecosystem: {
+        container: `div.scale-100`,
+        heading: `h2`,
+        headingText: `Vibrant Ecosystem`,
+        paragraph:  `p`,
+        paragraphText:  ` Laravel's robust library of first-party tools and libraries, such as Forge, Vapor, Nova, and Envoyer help you take your projects to the next level. Pair them with powerful open source libraries like Cashier, Dusk, Echo, Horizon, Sanctum, Telescope, and more. `,
+        arrowSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        arrowSVGURL: `http://www.w3.org/2000/svg`,
+        iconSVG: `svg[class="w-7 h-7 stroke-red-500"]`,
+        iconSVGURL: `http://www.w3.org/2000/svg`,
+    },
+    sponsor: {
+        container: `a[href="https://github.com/sponsors/taylorotwell"]`,
+        url: `https://github.com/sponsors/taylorotwell`,
+        iconSVG: `[d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"]`,
+        text: ` Sponsor `,
+    },
+    logIn: {
+        container: `a[href="http://localhost:8080/login"]`,
+        url: `http://localhost:8080/login`,
+        text: `Log in`,
+    },
+    register: {
+        container: `[href="http://localhost:8080/register"]`,
+        url: `http://localhost:8080/register`,
+        text: `Register`,
+    },
+
+    testUser: {
+        name: `TestUser00`,
+        email: `TestUser00@testmail.com`,
+        password: `QAZwsx!@#456`,
+    }
+
+}
